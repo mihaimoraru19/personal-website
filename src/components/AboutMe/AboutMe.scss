@@ -1,0 +1,20 @@
+.About-me {
+  display: flex;
+  background-color: white;
+  height: 75vh;
+}
+
+.Picture {
+  display: flex;
+  width: 35%;
+  span {
+    color: #FFCE07;
+    text-shadow: 1px 2px #222222;
+    font-size: 30px;
+  }
+}
+
+.Description {
+  display: flex;
+  width: 65%;
+}
