@@ -3,26 +3,76 @@
   display: inline-flex;
   width: 100%;
   justify-content: center;
-
-}
-
-.Sticky-container {
-  display: inline-flex;
-  height: 60px;
-  width: 100%;
-  position: fixed;
-  top: 0;
+  scroll-behavior: smooth;
 }
 
 .Logo {
   display: flex;
-  width: 30%;
+  justify-content: flex-start;
+  width: 80%;
   float: left;
   height: 50px;
+  text-shadow: 3px 3px 3px 3px white;
 }
 
 .Header-links {
   display: inline-flex;
   width: 70%;
   float: right;
+}
+
+.Sticky-header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  height: 80px;
+  background: transparent;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: center;
+  &.changed {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background: #bba900;
+    //background: rgba(1, 8, 49, 0.4);
+    background: rgba(0, 0, 0, 0.6);
+    height: 70px;
+  }
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: space-around;
+  color: white;
+  opacity: 0.6;
+}
+
+.Link {
+  height: 24px;
+  color: white;
+  opacity: 0.6;
+  transition: all 0.5s ease;
+}
+
+.Link:hover {
+  opacity: 1;
+}
+
+.Round {
+  display: flex;
+  align-self: center;
+  padding-left: 30px;
+  height: 60px;
+}
+
+.Tooltip {
+  font-family: 'Roboto Condensed', sans-serif;
 }

@@ -4,7 +4,7 @@ import './index.scss';
 import Home from './Home';
 import registerServiceWorker from './registerServiceWorker';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 library.add(fab);
 

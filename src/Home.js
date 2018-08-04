@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AboutMe from './components/AboutMe/AboutMe';
 import Header from './components/Header/Header'
+import Resume from './components/Resume/Resume'
+import Contact from './components/Contact/Contact'
 import './Home.scss';
 
 export default class Home extends Component {
@@ -10,7 +11,8 @@ export default class Home extends Component {
     return (
       <div className="App">
           {/* Home Screen */}
-          <div className="Hero-container">
+          <div id="Home" className="Hero-container">
+            <Header />
             <div className="Intro">
               <img src={require('./assets/logo-v2-01.svg')} alt="Logo Mihai Moraru" className="Floating-image"/>
               <div>
@@ -33,13 +35,10 @@ export default class Home extends Component {
           </div>
         {/* About Me */}
         <AboutMe />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        {/* Resume */}
+        <Resume />
+        {/* Contact */}
+        <Contact />
       </div>
     );
   }

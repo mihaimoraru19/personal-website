@@ -1,0 +1,84 @@
+.Wrapper {
+  display: flex;
+  height: 100vh;
+  background-image: url('../../assets/resume-bg.jpg');
+  background-size: cover;
+}
+
+.Resume-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: block;
+  padding-top: 80px;
+}
+
+.Resume-title {
+  color: #FFCE07;
+  text-shadow: 1px 2px #222222;
+  font-size: 48px;
+  text-align: center;
+  display: flex;
+  align-self: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.Sides {
+  display: flex;
+  width: 100%;
+}
+
+.Job {
+  display: inline-block;
+  width: 45%;
+  text-shadow: 1px 2px #222222;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  &-description {
+    font-size: 16px;
+  }
+}
+
+.Gentlab {
+  color: #009fdb;
+}
+
+.Technologies {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: #da8800;
+  text-shadow: 1px 2px #222222;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
+  &-title {
+    font-size: 24px;
+    color: white;
+  }
+}
+
+.Divider-resume {
+  display: flex;
+  padding: 15px 0 0 25px;
+  border-right: 1px solid white;
+  box-shadow: 3px 0 0 0 #222222;
+  margin-left: 40px;
+}
+
+.Main {
+  margin-top: 15px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: #FFCE07;
+}
+
+.Language {
+  max-width: 10%;
+  margin-left: 5%;
+}

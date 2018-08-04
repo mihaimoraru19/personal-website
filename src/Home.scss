@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .App-header {
@@ -25,6 +26,7 @@
   background-size: cover;
   height: 100vh;
   font-size: 32px;
+  scroll-behavior: smooth;
 }
 
 .Intro {
