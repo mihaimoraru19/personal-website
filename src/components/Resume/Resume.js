@@ -45,14 +45,14 @@ export default class Resume extends Component {
           <div className="Sides">
             <div className="Job">
               <div style={{display: "block"}}><span className="Gentlab">GENTLAB</span> - Full-Stack Web & Mobile Developer</div>
-              <span className="Job-description">
-                  April 2017 - Present
+              <div className="Job-description">
+                  <span style={{color: 'lightblue'}}>April 2017 - Present</span>
                   <br/>
                   My main responsibilities are to implement new features and fix bugs on the web and mobile for an eLearning platform, <span style={{color: '#FFCE07', }}>Knolyx</span>.
                   In the past I worked for a platform dedicated to communities, <span style={{color: '#8ec742'}}>Kommio</span>.
                   I am currently working with Java & Spring Framework on the back-end and ReactJS on the front-end.
                   For mobile development we are working with React Native.
-              </span>
+              </div>
             </div>
             <div className="Divider-resume"> </div>
             <div className="Technologies">
@@ -60,11 +60,11 @@ export default class Resume extends Component {
                 Technologies Used
               </div>
               <div className="Main">
-                <span style={{display: 'block'}}>Main technologies</span>
+                <span style={{display: 'block', marginBottom: '10px'}}>Main technologies</span>
                 {renderMainTechnologies}
-                <span style={{display: 'block', marginTop: '10px'}}>Less experienced</span>
+                <span style={{display: 'block', marginTop: '10px', marginBottom: '10px'}}>Less experienced</span>
                 {renderLessExperienced}
-                <span style={{display: 'block', marginTop: '10px'}}>Learning</span>
+                <span style={{display: 'block', marginTop: '10px', marginBottom: '10px'}}>Learning</span>
                 {renderLearning}
               </div>
             </div>

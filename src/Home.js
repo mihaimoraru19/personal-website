@@ -15,11 +15,12 @@ export default class Home extends Component {
             <Header />
             <div className="Intro">
               <img src={require('./assets/logo-v2-01.svg')} alt="Logo Mihai Moraru" className="Floating-image"/>
-              <div>
-                HELLO, MY NAME IS <span className="Name">MIHAI MORARU</span><br/>
-                <span className="Developer">Junior Full-Stack Developer</span>
+              <div className="Intro-text">
+                <div className="Hello">
+                  HI! I AM <span className="Name">MIHAI MORARU</span>
+                </div>
               </div>
-
+              <div className="Developer">Junior Full-Stack Developer</div>
             </div>
             <div className="Social">
               <a className="Social-icon Social-icon-facebook" href="https://www.facebook.com/MihaiMoraru19" target="_blank" rel="noopener noreferrer">
@@ -39,6 +40,10 @@ export default class Home extends Component {
         <Resume />
         {/* Contact */}
         <Contact />
+        <div className="Footer">
+          <img style={{maxHeight: '80%', marginRight: '20px'}} src={require('./assets/logo-v2-01.svg')} alt="Logo Mihai Moraru"/>
+          <div>Copyright <span className="Name">Mihai Moraru</span> © 2018</div>
+        </div>
       </div>
     );
   }

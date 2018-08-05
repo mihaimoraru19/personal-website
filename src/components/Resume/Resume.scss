@@ -9,7 +9,7 @@
   padding-left: 40px;
   padding-right: 40px;
   display: block;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 
 .Resume-title {
@@ -36,9 +36,11 @@
   color: white;
   text-align: left;
   font-size: 20px;
+  line-height: 20px;
   font-family: 'Titillium Web', sans-serif;
   &-description {
     font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -66,7 +68,6 @@
   display: flex;
   padding: 15px 0 0 25px;
   border-right: 1px solid white;
-  box-shadow: 3px 0 0 0 #222222;
   margin-left: 40px;
 }
 

@@ -2,6 +2,7 @@
   display: flex;
   background-image: url('../Contact/assets/contact.jpg');
   background-size: cover;
+  //background-color: #252525;
   height: 100vh;
 }
 
@@ -9,7 +10,7 @@
   padding-left: 40px;
   padding-right: 40px;
   display: block;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 
 .Contact-title {
@@ -22,4 +23,109 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+}
+
+.Form {
+  display: block;
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(66, 66, 66, 0.5);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  border-radius: 0;
+  width: 40%;
+  border: 1px solid #FFCE07;
+}
+
+.Form-field {
+    display: block;
+    background-color: transparent;
+    border-radius: 0;
+    color: white;
+    max-height: 35px;
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid rgb(169, 169, 169);
+}
+
+.Form-field:focus {
+  outline: none;
+}
+
+.Form-textarea {
+  display: flex;
+  background-color: transparent;
+  border-radius: 0;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  -webkit-appearance: none;
+  padding: 5px;
+  border: 0;
+  width: 100%;
+}
+
+.Form-textarea:focus {
+  outline: none;
+  border: 1px solid rgb(169, 169, 169);
+}
+
+.Contact-content {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  margin-top: 5vh;
+  width: 100% !important;
+  justify-content: center !important;
+}
+
+.Connect {
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+  margin-left: 40px;
+  font-size: 45px;
+  line-height: 45px;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  background-color: rgba(66, 66, 66, 0.8);
+  border: 1px solid #FFCE07;
+  &-in {
+    color: #0077B5;
+    height: 120px;
+    width: 120px;
+    align-self: flex-start;
+    justify-self: center;
+  }
+}
+
+.Contact-button {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  color: white;
+  margin: auto;
+  padding: 5px 15px;
+  background-color: #FFCE07;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Contact-button:hover {
+  background-color: white;
+  color: #FFCE07;
+}
+
+label {
+  color: #c8c8c8;
+  font-size: 16px;
+}
+
+.Form-group {
+  margin-bottom: 10px;
 }
