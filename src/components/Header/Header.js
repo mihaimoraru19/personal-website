@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Header.scss';
+import './Header.css';
 import classnames from 'classnames';
 import Tooltip from '@material-ui/core/Tooltip';
 import AnchorLink from 'react-anchor-link-smooth-scroll'

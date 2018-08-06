@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+import './index.css';
 import Home from './Home';
 import registerServiceWorker from './registerServiceWorker';
 import { fab } from '@fortawesome/free-brands-svg-icons';

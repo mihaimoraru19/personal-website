@@ -80,13 +80,12 @@
 .Footer {
   display: flex;
   justify-content: center;
+  background-color: #222222;
   align-items: center;
   color: white;
-  background-color: #2a2826;
-  height: 10vh;
-  font-size: 20px;
-  line-height: 22px;
+  height: 5vh;
   font-family: 'Titillium Web', sans-serif;
+  top: 80%
 }
 
 @keyframes float {

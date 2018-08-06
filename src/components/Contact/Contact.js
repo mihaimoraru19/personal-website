@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './Contact.scss'
+import './Contact.css'
 
 export default class Contact extends Component {
   constructor(props) {
@@ -60,7 +60,6 @@ export default class Contact extends Component {
 
   render() {
     const { name, email, subject, message, nameError, emailError, subjectError, messageError } = this.state;
-    console.log(this.validate());
     return (
       <div id="Contact" className="Wrapper-contact">
         <div className="Contact-container">

@@ -4,7 +4,8 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Header from './components/Header/Header'
 import Resume from './components/Resume/Resume'
 import Contact from './components/Contact/Contact'
-import './Home.scss';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import './Home.css';
 
 export default class Home extends Component {
   render() {
@@ -14,7 +15,9 @@ export default class Home extends Component {
           <div id="Home" className="Hero-container">
             <Header />
             <div className="Intro">
-              <img src={require('./assets/logo-v2-01.svg')} alt="Logo Mihai Moraru" className="Floating-image"/>
+              <AnchorLink href="#About">
+                <img src={require('./assets/logo-v2-01.svg')} alt="Logo Mihai Moraru" className="Floating-image"/>
+              </AnchorLink>
               <div className="Intro-text">
                 <div className="Hello">
                   HI! I AM <span className="Name">MIHAI MORARU</span>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Tooltip from '@material-ui/core/Tooltip';
-import './Resume.scss';
+import './Resume.css';
 
 export default class Resume extends Component {
   render() {
