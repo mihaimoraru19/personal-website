@@ -119,6 +119,7 @@ export default class Contact extends Component {
                 />
               </div>
               <input type="hidden" name="_next" value="/"/>
+              <input type="hidden" name="_cc" value="contact@mihaimoraru.ro" />
                 <button
                   className="Contact-button"
                   onClick={this.onClick}

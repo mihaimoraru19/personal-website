@@ -19,7 +19,7 @@ export default class AboutMe extends Component {
             I'm a passionate developer who started to learn programming on his own a few years ago and consolidated my knowledge through study materials from the web & workshops and gained experience by working at Gentlab.
             Besides work, I try to learn as much as I can through personal projects.
             Starting October 1st, I will be a student towards a bachelor's degree in Computer Science at Babes-Bolyai University from Cluj-Napoca.
-            I believe that every software created should be a response to a need or a problem that we have.
+            I believe that every software created should be the response to a need or a problem that we have.
           </div>
         </div>
       </div>

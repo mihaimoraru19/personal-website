@@ -5,10 +5,13 @@ import Header from './components/Header/Header'
 import Resume from './components/Resume/Resume'
 import Contact from './components/Contact/Contact'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import ReactGA from 'react-ga';
 import './Home.css';
 
 export default class Home extends Component {
   render() {
+    ReactGA.initialize('UA-123984174-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div className="App">
           {/* Home Screen */}
